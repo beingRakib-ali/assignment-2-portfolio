@@ -1,0 +1,273 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+.slicknav_menu {
+	display:none;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.header-aria{
+	background-color:blue;
+	width:100%;
+}
+.header-menu{
+	
+	width:100%;
+}
+.header-menu ul{
+    width:65%; 
+	padding-left:10px;
+	text-align:right;
+}
+
+.header-content h1{
+	width:40%;
+	float:left;
+	margin:50px 0px 50px 50px;
+	color:ivory;
+	font-size: 40px;
+}
+.wezeet h2{
+	width:80%;
+	text-align:left;
+}
+.wezeet p{
+	width:80%;
+	padding:20px;
+	text-align:left;
+}
+.text h1{
+	width:100%;
+	margin:40px;
+	font-size:35px;
+	padding-top:50px;
+}
+.text p{
+	width:100%;
+	margin:40px;
+}
+
+
+
+
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.header-aria{
+	background-color:blue;
+	width:100%;
+}
+.header-menu{
+	
+	display:none;
+}
+
+.header-content h1{
+	width:100%;
+	float:up;
+	margin:50px 0px 50px 50px;
+	color:ivory;
+	font-size: 30px;
+}
+.header-content{
+	width:100%;
+	background-color:blue;
+	height:600px;
+}
+.header-content img{
+	width:100%;
+	float:down;
+	margin-top:50px;
+}
+.wezeet h2{
+	width:80%;
+	text-align:left;
+}
+.wezeet{
+	width:100%;
+	position:relative;
+	background-color:#fff;
+	float:left;
+	text-align:center;
+}
+.wezeet p{
+	width:80%;
+	padding:20px;
+	text-align:left;
+}
+.text{
+	width:100%;
+	float: left;
+}
+.text h1{
+	width:100%;
+	margin:40px;
+	font-size:30px;
+	padding-top:30px;
+}
+.text p{
+	width:100%;
+	margin:10px;
+}
+.footer ul li img{
+	width:50%;
+	margin:0 auto;
+	margin:-30px;
+	
+}
+
+.img{
+	width:100%;
+	float: right;
+}
+.img img{
+	width:100%;
+	padding-top:50px;
+}
+.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+
+	}
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.header-aria{
+	background-color:blue;
+	width:100%;
+}
+.header-menu{
+	
+	display:none;
+}
+
+.header-content h1{
+	width:100%;
+	float:up;
+	margin:50px 0px 50px 50px;
+	color:ivory;
+	font-size: 40px;
+}
+.header-content{
+	width:100%;
+	background-color:blue;
+	height:600px;
+}
+.header-content img{
+	width:100%;
+	float:down;
+	margin-top:50px;
+}
+.wezeet h2{
+	width:80%;
+	text-align:left;
+}
+.wezeet{
+	width:100%;
+	position:relative;
+	background-color:#fff;
+	float:left;
+	text-align:center;
+}
+.wezeet p{
+	width:80%;
+	padding:20px;
+	text-align:left;
+}
+.text{
+	width:100%;
+	float: left;
+}
+.text h1{
+	width:100%;
+	margin:40px;
+	font-size:35px;
+	padding-top:50px;
+}
+.text p{
+	width:100%;
+	margin:40px;
+}
+
+.img{
+	width:100%;
+	float: right;
+}
+.img img{
+	width:100%;
+	padding-top:50px;
+}
+.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+
+	}
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
